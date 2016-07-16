@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html ng-app="scheduleApp">
+<head>
+<meta charset="ISO-8859-1">
+<title>Homework Planner</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/animatecss/2.1.0/animate.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-animate.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-cookies.js"></script>
+<script src="https://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.14.3.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="js/app.js"></script>
+<!-- <script src="https://cdn.firebase.com/js/client/1.1.1/firebase.js"></script> -->
+<!-- <script src="https://cdn.firebase.com/libs/angularfire/0.8.0/angularfire.min.js"></script> -->
+
+
+</head>
+<!-- TODO: Pull repeated HTML out into a directive -->
+<!-- TODO: Add time down the side -->
+<!-- TODO: Colouring for lessons as per homework status -->
+<!-- TODO: Make Break and Lunch one long bar -->
+
+<body ng-controller="mainController">
+	<div class="container">
+
+		<div class="page-header text-center">
+			<h1>Homework Planner</h1>
+		</div>
+  
+		<div class="CSSTableGenerator">
+		<uib-accordion close-others="true"> 
+			<table class="table" class="btn-group btn-group-justified">
+				<!-- Gets the day of the week from the 1st element in the array of lessons. -->
+				<tr>
+					<td ng-repeat="row in timetable">{{row.lessons[0].day}}</td>
+				</tr>
+				<!-- n is not used it's just to index over the array 9 times -->
+				<tr ng-repeat="n in [1,2,3,4,5,6,7,8,9,10]">
+					<td style="background-color:{{getBackgroundColor($index,n-1)}}" ng-repeat="row in timetable" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<p>
+							<b style="font-size:16px">{{row.lessons[$parent.$index].name}}</b>
+						</p> 
+						<div ng-hide="row.lessons[n-1].name=='Morning Break' || row.lessons[n-1].name=='Lunch Break'">
+						<!-- Shows the homework due date when it is set and the notes in a popup -->
+						<!-- Only show this span if homework is not done -->
+						<span  ng-show="!row.lessons[n-1].done" uib-dropdown on-toggle="toggled(open)" style="font-size:14px">
+							<!-- Shows the notes in a little hover over popup -->
+							<a popover-animation="true" uib-popover="{{row.lessons[n-1].notes}}" popover-trigger="mouseenter" href style="font-size:16px" ng-model="thisDate">{{row.lessons[$parent.$index].homeworkdue | date: 'dd-MMM-yyyy'}}</a>
+<!-- 							<i ng-show="!row.lessons[n-1].done">Due</i> -->
+							<a href  style="font-size:14px; float:right" ng-click="setData($index, n-1,'','',true); getBackgroundColor($index, n-1)">Done</a>
+						</span>
+						<i ng-show="row.lessons[n-1].done">&nbsp;</i>
+
+						
+					<!-- This is the expandable date picker -->
+						<uib-accordion-group  is-open="status[$index][n-1].open">
+							<uib-accordion-heading>
+								<div ng-show="row.lessons[n-1].done">Add Homework</div>
+								<div ng-show="!row.lessons[n-1].done">Edit Homework</div>
+							</uib-accordion-heading>
+							<form>
+								<textarea ng-model="row.lessons[n-1].notes"></textarea>
+								<div style="display: inline-block; min-height: 290px;">
+									<uib-datepicker ng-model="dtArray[$index][n-1]" date-type="string" min-date="minDate"  format-month="MM" show-weeks="false" class="well well-sm">
+									</uib-datepicker>
+								</div>
+
+								<button type="button" class="btn btn-default btn-sm" ng-click="setData($index, n-1, dtArray[$index][n-1], row.lessons[n-1].notes,false); getBackgroundColor($index, n-1); status[$index][n-1].open = !status[$index][n-1].open">Submit</button>
+							</form>
+    					</uib-accordion-group>
+     					</div>
+					</td>
+				</tr>
+			</table>
+		</uib-accordion>
+		</div>
+	</div>
+</body>
+</html>
+
+<!-- 						<span uib-dropdown on-toggle="toggled(open)"> <a href id="simple-dropdown" uib-dropdown-toggle>Action</a> -->
+<!-- 							<ul class="uib-dropdown-menu" aria-labelledby="simple-dropdown"> -->
+<!-- 								<li ng-repeat="choice in items"><a href uib-dropdown-toggle ng-click="getAction(choice)">{{choice}}</a></li> -->
+<!-- 							</ul> -->
+<!-- 						</span>  -->
+							
+<!-- 								<span>		 -->
+<!-- 								<ng-if="{{row.lessons[$parent.$index].homeworkdue}} != null">Due: {{row.lessons[$parent.$index].homeworkdue}}</ng-if> -->
+<!-- 								</span> -->
+

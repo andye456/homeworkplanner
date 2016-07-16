@@ -1,0 +1,1150 @@
+
+
+{
+
+   "timetable": [
+
+      {
+
+         "lessons": [
+
+            {
+
+               "day": "Monday",
+
+               "slot": 1,
+
+               "name": "Maths",
+
+               "time": "09:05",
+
+               "duration": 40,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": "Mr Robson"
+
+            },
+
+            {
+
+               "day": "Monday",
+
+               "slot": 2,
+
+               "name": "Geography",
+
+               "time": "09:45",
+
+               "duration": 35,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": "Mr Powell"
+
+            },
+
+            {
+
+               "day": "Monday",
+
+               "slot": 3,
+
+               "name": "English",
+
+               "time": "10:20",
+
+               "duration": 35,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": "Mrs Sadler"
+
+            },
+
+            {
+
+               "day": "Monday",
+
+               "slot": 4,
+
+               "name": "Morning Break",
+
+               "time": "10:55",
+
+               "duration": 20,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": ""
+
+            },
+
+            {
+
+               "day": "Monday",
+
+               "slot": 5,
+
+               "name": "German",
+
+               "time": "11:15",
+
+               "duration": 35,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": "Mrs Hansen"
+
+            },
+
+            {
+
+               "day": "Monday",
+
+               "slot": 6,
+
+               "name": "Physics",
+
+               "time": "11:50",
+
+               "duration": 40,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": "Mrs Wilks"
+
+            },
+
+            {
+
+               "day": "Monday",
+
+               "slot": 7,
+
+               "name": "Physics",
+
+               "time": "12:30",
+
+               "duration": 60,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": "Mrs Wilks"
+
+            },
+
+            {
+
+               "day": "Monday",
+
+               "slot": 8,
+
+               "name": "Lunch Break",
+
+               "time": "13:05",
+
+               "duration": 65,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": ""
+
+            },
+
+            {
+
+               "day": "Monday",
+
+               "slot": 9,
+
+               "name": "Spanish",
+
+               "time": "14:15",
+
+               "duration": 40,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": "Mr Reece"
+
+            },
+
+            {
+
+               "day": "Monday",
+
+               "slot": 10,
+
+               "name": "Spanish",
+
+               "time": "14:55",
+
+               "duration": 35,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": "Mr Reece"
+
+            }
+
+         ]
+
+      },
+
+      {
+
+         "lessons": [
+
+            {
+
+               "day": "Tuesday",
+
+               "slot": 1,
+
+               "name": "Music",
+
+               "time": "09:05",
+
+               "duration": 40,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": ""
+
+            },
+
+            {
+
+               "day": "Tuesday",
+
+               "slot": 2,
+
+               "name": "Music",
+
+               "time": "09:45",
+
+               "duration": 35,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": ""
+
+            },
+
+            {
+
+               "day": "Tuesday",
+
+               "slot": 3,
+
+               "name": "Maths",
+
+               "time": "10:20",
+
+               "duration": 35,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": "Mr Robson"
+
+            },
+
+            {
+
+               "day": "Tuesday",
+
+               "slot": 4,
+
+               "name": "Morning Break",
+
+               "time": "10:55",
+
+               "duration": 20,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": ""
+
+            },
+
+            {
+
+               "day": "Tuesday",
+
+               "slot": 5,
+
+               "name": "RE",
+
+               "time": "11:15",
+
+               "duration": 35,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": ""
+
+            },
+
+            {
+
+               "day": "Tuesday",
+
+               "slot": 6,
+
+               "name": "German",
+
+               "time": "11:50",
+
+               "duration": 40,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": "Mrs Hansen"
+
+            },
+
+            {
+
+               "day": "Tuesday",
+
+               "slot": 7,
+
+               "name": "German",
+
+               "time": "12:30",
+
+               "duration": 60,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": "Mrs Hansen"
+
+            },
+
+            {
+
+               "day": "Tuesday",
+
+               "slot": 8,
+
+               "name": "Lunch Break",
+
+               "time": "13:05",
+
+               "duration": 65,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": ""
+
+            },
+
+            {
+
+               "day": "Tuesday",
+
+               "slot": 9,
+
+               "name": "Games",
+
+               "time": "14:15",
+
+               "duration": 40,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": ""
+
+            },
+
+            {
+
+               "day": "Tuesday",
+
+               "slot": 10,
+
+               "name": "Games",
+
+               "time": "14:55",
+
+               "duration": 35,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": ""
+
+            }
+
+         ]
+
+      },
+
+      {
+
+         "lessons": [
+
+            {
+
+               "day": "Wednesday",
+
+               "slot": 1,
+
+               "name": "English",
+
+               "time": "09:05",
+
+               "duration": 40,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": "Mrs Sadler"
+
+            },
+
+            {
+
+               "day": "Wednesday",
+
+               "slot": 2,
+
+               "name": "P.E.",
+
+               "time": "09:45",
+
+               "duration": 35,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": ""
+
+            },
+
+            {
+
+               "day": "Wednesday",
+
+               "slot": 3,
+
+               "name": "P.E.",
+
+               "time": "10:20",
+
+               "duration": 35,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": ""
+
+            },
+
+            {
+
+               "day": "Wednesday",
+
+               "slot": 4,
+
+               "name": "Morning Break",
+
+               "time": "10:55",
+
+               "duration": 20,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": ""
+
+            },
+
+            {
+
+               "day": "Wednesday",
+
+               "slot": 5,
+
+               "name": "Maths",
+
+               "time": "11:15",
+
+               "duration": 35,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": "Mr Robson"
+
+            },
+
+            {
+
+               "day": "Wednesday",
+
+               "slot": 6,
+
+               "name": "Technology",
+
+               "time": "11:50",
+
+               "duration": 40,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": ""
+
+            },
+
+            {
+
+               "day": "Wednesday",
+
+               "slot": 7,
+
+               "name": "Technology",
+
+               "time": "12:30",
+
+               "duration": 60,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": ""
+
+            },
+
+            {
+
+               "day": "Wednesday",
+
+               "slot": 8,
+
+               "name": "Lunch Break",
+
+               "time": "13:05",
+
+               "duration": 65,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": ""
+
+            },
+
+            {
+
+               "day": "Wednesday",
+
+               "slot": 9,
+
+               "name": "Biology",
+
+               "time": "14:15",
+
+               "duration": 40,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": ""
+
+            },
+
+            {
+
+               "day": "Wednesday",
+
+               "slot": 10,
+
+               "name": "Biology",
+
+               "time": "14:55",
+
+               "duration": 35,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": ""
+
+            }
+
+         ]
+
+      },
+
+      {
+
+         "lessons": [
+
+            {
+
+               "day": "Thursday",
+
+               "slot": 1,
+
+               "name": "English",
+
+               "time": "09:05",
+
+               "duration": 40,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": "Mrs Sadler"
+
+            },
+
+            {
+
+               "day": "Thursday",
+
+               "slot": 2,
+
+               "name": "ICT",
+
+               "time": "09:45",
+
+               "duration": 35,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": ""
+
+            },
+
+            {
+
+               "day": "Thursday",
+
+               "slot": 3,
+
+               "name": "Spanish",
+
+               "time": "10:20",
+
+               "duration": 35,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": "Mr Reece"
+
+            },
+
+            {
+
+               "day": "Thursday",
+
+               "slot": 4,
+
+               "name": "Morning Break",
+
+               "time": "10:55",
+
+               "duration": 20,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": ""
+
+            },
+
+            {
+
+               "day": "Thursday",
+
+               "slot": 5,
+
+               "name": "History",
+
+               "time": "11:15",
+
+               "duration": 35,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": ""
+
+            },
+
+            {
+
+               "day": "Thursday",
+
+               "slot": 6,
+
+               "name": "Chemistry",
+
+               "time": "11:50",
+
+               "duration": 40,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": ""
+
+            },
+
+            {
+
+               "day": "Thursday",
+
+               "slot": 7,
+
+               "name": "Chemistry",
+
+               "time": "12:30",
+
+               "duration": 60,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": ""
+
+            },
+
+            {
+
+               "day": "Thursday",
+
+               "slot": 8,
+
+               "name": "Lunch Break",
+
+               "time": "13:05",
+
+               "duration": 65,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": ""
+
+            },
+
+            {
+
+               "day": "Thursday",
+
+               "slot": 9,
+
+               "name": "Geography",
+
+               "time": "14:15",
+
+               "duration": 40,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": "Mr Powell"
+
+            },
+
+            {
+
+               "day": "Thursday",
+
+               "slot": 10,
+
+               "name": "RE",
+
+               "time": "14:55",
+
+               "duration": 35,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": ""
+
+            }
+
+         ]
+
+      },
+
+      {
+
+         "lessons": [
+
+            {
+
+               "day": "Friday",
+
+               "slot": 1,
+
+               "name": "Geography",
+
+               "time": "09:05",
+
+               "duration": 40,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": "Mr Powell"
+
+            },
+
+            {
+
+               "day": "Friday",
+
+               "slot": 2,
+
+               "name": "Art",
+
+               "time": "09:45",
+
+               "duration": 35,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": ""
+
+            },
+
+            {
+
+               "day": "Friday",
+
+               "slot": 3,
+
+               "name": "Art",
+
+               "time": "10:20",
+
+               "duration": 35,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": ""
+
+            },
+
+            {
+
+               "day": "Friday",
+
+               "slot": 4,
+
+               "name": "Morning Break",
+
+               "time": "10:55",
+
+               "duration": 20,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": ""
+
+            },
+
+            {
+
+               "day": "Friday",
+
+               "slot": 5,
+
+               "name": "English",
+
+               "time": "11:15",
+
+               "duration": 35,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": "Mrs Sadler"
+
+            },
+
+            {
+
+               "day": "Friday",
+
+               "slot": 6,
+
+               "name": "Roundabout",
+
+               "time": "11:50",
+
+               "duration": 40,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": ""
+
+            },
+
+            {
+
+               "day": "Friday",
+
+               "slot": 7,
+
+               "name": "Roundabout",
+
+               "time": "12:30",
+
+               "duration": 60,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": ""
+
+            },
+
+            {
+
+               "day": "Friday",
+
+               "slot": 8,
+
+               "name": "Lunch Break",
+
+               "time": "13:05",
+
+               "duration": 65,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": ""
+
+            },
+
+            {
+
+               "day": "Friday",
+
+               "slot": 9,
+
+               "name": "History",
+
+               "time": "14:15",
+
+               "duration": 40,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": ""
+
+            },
+
+            {
+
+               "day": "Friday",
+
+               "slot": 10,
+
+               "name": "Maths",
+
+               "time": "14:55",
+
+               "duration": 35,
+
+               "homeworkdue": "",
+
+               "notes": "",
+
+               "done": true,
+
+               "teacher": "Mr Robson"
+
+            }
+
+         ]
+
+      }
+
+   ]
+
+}
+

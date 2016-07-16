@@ -1,0 +1,12 @@
+<tr>
+	<td ng-repeat="row in allDays" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		<p>
+			<a popover-animation="true" uib-popover="{{row.lessons[0].homeworkdue}} {{row.lessons[0].notes}}" href>{{row.lessons[0].name}}</a>
+		</p> <span uib-dropdown on-toggle="toggled(open)"> <a href id="simple-dropdown" uib-dropdown-toggle>Action</a>
+			<ul class="uib-dropdown-menu" aria-labelledby="simple-dropdown">
+				<li ng-repeat="choice in items"><a href uib-dropdown-toggle ng-click="getAction(choice)">{{choice}}</a></li>
+			</ul>
+	</span>
+
+	</td>
+</tr>
